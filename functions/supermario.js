@@ -1,4 +1,4 @@
-exports.handler = async (event, context) => {
+exports.handler = async () => {
     console.log('function ran')
 
     const data = { name: 'mario', age: 35, job: 'plumber' }
